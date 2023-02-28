@@ -1,7 +1,7 @@
 import openai
 import click
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 @click.command()
 @click.option('--input', '-i', prompt='Enter some text', help='Input text for ChatGPT')
